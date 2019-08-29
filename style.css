@@ -1,3 +1,5 @@
+/* Initial changes are marked as comments. Learn from your mistakes Thomas! */
+
 * {
     box-sizing: border-box;
     text-align: center;
@@ -13,9 +15,9 @@ body {
 	
 }
 
-.wrapper {
+/* .wrapper {
 	text-align: center;
-}
+} */
 
 header {
 	height: 50px;
@@ -45,7 +47,7 @@ section {
 	width: 495px;
 	position: relative;
     margin-right: 10px;
-    padding: 10px;
+	padding-top: 10px;
 }
 
 article {
@@ -53,28 +55,32 @@ article {
 	background-color:#777;
 	color: #ebebeb;
 	float:middle;
-	position: relative;
-	top: 20px;
+	/* top: 20px; */
 	left: 0px;
-    margin: 20px;
-    padding: 10px;
+	margin: 20px;
+	padding: 20px 10px;
+    padding: 20px;
 	
 }
 
-article h1 {
+h1 {
 	height:50px;
 	background-color: #ebebeb;
 	color: #777;
-    margin: 50px 20px 10px 20px;
-    /* padding: 10px; */
+	/* margin: 50px 20px 10px 20px; */
+	/* margin: 10px 20px 0px 20px; */
+	margin: 10px;
+    padding: 10px;
 }
 
-article p {
+p {
 	height: 50px;
 	background-color: #ebebeb;
 	color: #777;
-    margin: 10px 20px 10px 20px;
-    /* padding: 10px; */
+	/* margin: 10px 20px 10px 20px; */
+	/* margin: 10px 20px 0px 20px; */
+	margin: 10px;
+    padding: 10px;
 }
 
 aside {
